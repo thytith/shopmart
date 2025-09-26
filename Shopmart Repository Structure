@@ -1,0 +1,39 @@
+shopsmart-repo/
+│
+├── package.json
+├── app.js
+├── ecosystem.config.js
+├── deploy.sh
+├── .env.example
+├── .gitignore
+│
+├── config/
+│   └── database.js
+│
+├── routes/
+│   ├── products.js
+│   ├── orders.js
+│   ├── users.js
+│   └── health.js
+│
+├── services/
+│   ├── productService.js
+│   ├── orderService.js
+│   └── userService.js
+│
+├── models/
+│   ├── Product.js
+│   ├── Order.js
+│   └── User.js
+│
+├── middleware/
+│   ├── auth.js
+│   └── validation.js
+│
+├── sql/
+│   ├── init.sql
+│   └── sample-data.sql
+│
+└── docs/
+    ├── DEPLOYMENT.md
+    └── API.md
